@@ -35,5 +35,5 @@ def gross_for_director(director_data)
       total = total + movies[movie_counter][:worldwide_gross].to_i
       movie_counter += 1
     end
-
+    total
 end
