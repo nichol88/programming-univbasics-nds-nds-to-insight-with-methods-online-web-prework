@@ -22,6 +22,7 @@ def directors_totals(nds)
     result[nds[counter][:name]] = total
     counter += 1
   end
+  result
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
